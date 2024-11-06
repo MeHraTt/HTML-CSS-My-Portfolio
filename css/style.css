@@ -37,6 +37,9 @@
 .nav-bar .menu ul a{
     text-decoration: none;
 }
+.nav-bar .menu ul a li span:hover{
+    color: #FF305B;
+}
 .nav-bar .menu ul a li{
     padding-top: ;
 }
@@ -157,6 +160,7 @@
 }
 .about-section .text .small-text p{
     padding: 30px;
+    font-size: 19px;
 }
 .about-section .text .small-text h2::before{
     content: "";
@@ -243,6 +247,7 @@
 }
 .ourservices-section .card{
     text-align: center;
+    padding: 10px;
 }
 .ourservices-section .cards .card:hover{
     background-color: #FFFFFF;
@@ -687,5 +692,8 @@
     text-decoration: none;
 }
 .footer p a span{
+    color: #FF305B;
+}
+.footer .footer-icons i:hover{
     color: #FF305B;
 }
